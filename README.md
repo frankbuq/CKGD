@@ -90,16 +90,6 @@ No. As derived in Section 4 of the manuscript, the Lorentz factor appears as $\g
 
 ---
 
-## 🔮 Future Work: The Unified Model
-
-While CKGD accurately describes the *kinematics* of gravity, future research will focus on the **Scalar-Tensor Extension** to address propulsion mechanics.
-
-*   **Project A:** Numerical Simulation of High-$\Gamma$ Boosts using the Einstein Toolkit.
-*   **Project B:** Unification with **Dynamic Relativity (DR)** to model Scalar Field Gradients ($\nabla \mu$).
-*   **Project C:** Investigation of the **Gravitational Cherenkov Limit** ($v > c_{eff}$) in engineered metric environments.
-
----
-
 ## 🚀 Usage
 
 To compile the manuscript from source, you will need a standard LaTeX distribution (TeX Live, MiKTeX, or MacTeX).
