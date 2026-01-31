@@ -6,9 +6,20 @@
 
 > **"Mass is Invariant. Geometry does the Accounting."**
 
-**Covariant Kinetic Geometrodynamics (CKGD)** is a foundational re-interpretation of General Relativity that abolishes the phenomenological concept of "Relativistic Mass" ($M = \gamma m$). 
+The Accounting of E =γmc2 
+
+In CKGD, the Lorentz Factor is not a scalar multiplier but a tensor operation. We decompose the observer’s 4velocity gradient ∇νuµ: 
+
+- Expansion θ: Corresponds to the BSSN trace K. 
+
+- Shear σµν: Corresponds to A˜ij (The Lorentz Squeeze). 
+
+- Vorticity ωµν: Corresponds to the curl of the Shift βi (Gravitomagnetism).
 
 Instead of treating the Lorentz factor as a kinematic modifier of the object, CKGD treats it as a **Geometric Perceptron**: a frame-dependent shearing of the spacetime manifold that stores kinetic energy in the **Velocity of Curvature**.
+
+Standard relativity posits that energy increases by γ. The energy of motion is relative to an observer, it is not a fixed value. CKGD posits that the geometry deforms by A˜ij. The Hamiltonian constraint enforces this balance: H = 0 =⇒ A˜ijA˜ij ≈ 16π(γ2 − 1)ρ. The kinetic energy is physically stored in the squared magnitude of the shear tensor A˜ij. The Perceptron is the geometric mechanism that converts relative velocity βi into extrinsic curvature.
+**Covariant Kinetic Geometrodynamics (CKGD)** is a foundational re-interpretation of General Relativity that replaces the phenomenological concept of "Relativistic Mass" ($M = \gamma m$) with geometric curvature. 
 
 ---
 
