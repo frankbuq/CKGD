@@ -8,6 +8,8 @@
 
 The Accounting of E =γmc2 
 
+Since each observer will have a different γ due to different relative velocity, it is unreasonable to include an energy term in the rest mass: there is no one single energy term. We suggest that relativistic mass is unique to every observer and the geometry of moving curvature must account for the energy. Relativistic mass is rest mass adjusted by the curvature interactions with the observer: the observer eperiences relativistic mass as a change in gravity due to curvature interactions. 
+
 In CKGD, the Lorentz Factor is not a scalar multiplier but a tensor operation. We decompose the observer’s 4velocity gradient ∇νuµ: 
 
 - Expansion θ: Corresponds to the BSSN trace K. 
