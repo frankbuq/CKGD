@@ -7,11 +7,15 @@
 
 ---
 
+
+
 ## Overview
 
 Covariant Kinetic Geometrodynamics (CKGD) proposes that phenomena currently attributed to dark matter and dark energy can be explained through proper accounting of extrinsic curvature contributions within the BSSN (Baumgarte-Shapiro-Shibata-Nakamura) formulation of General Relativity.
 
-**Key Hypothesis:** The "Lorentz Perceptron" — kinetic energy is stored in spacetime geometry (extrinsic curvature K_ij) rather than exclusively in moving objects, leading to observable deviations from standard Newtonian predictions in specific regimes.
+**Key Hypothesis:** The "Lorentz Perceptron" — kinetic energy is stored in spacetime geometry (extrinsic curvature K_ij) rather than exclusively in moving objects, leading to observable deviations from standard Newtonian predictions in specific regimes. 
+
+**The Accounting of E = γmc2** Each observer will have a different γ due to different relative velocity: there is no one single energy term that accounts for all observers. In CKGD the Lorentz Perceptron is a Metric Tensor and accounts for the assymetry between approaching and receding velocity while maintaining General Covariance. The energy term adjusts rest mass by observer dependent gravity.
 
 ## Predictions
 
