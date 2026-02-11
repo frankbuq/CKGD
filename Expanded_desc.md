@@ -246,8 +246,7 @@ Under the following terms:
 ## Contact
 
 - **GitHub:** [@frankbuq](https://github.com/frankbuq)
-- **Email:** [Provide contact email]
-- **Website:** [relativisticgravity.com](http://relativisticgravity.com) (historical, 2013 version)
+- **Email:** [frankbuq@gmail.com]
 
 ---
 
