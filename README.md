@@ -21,7 +21,7 @@ Covariant Kinetic Geometrodynamics (CKGD) proposes that phenomena currently attr
 
 **Status:** ✅ **Observed in Gaia DR3 data**
 
-![Gaia Verification](gaia_verification_plot.png)
+![Gaia Verification](analysis/gaia_verification_plot.png)
 
 - **Sample:** 6,832 red dwarf binaries from Gaia DR3
 - **Transition radius:** ~2,500 AU (as predicted)
