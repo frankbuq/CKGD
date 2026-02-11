@@ -1,0 +1,31 @@
+		SELECT TOP 20000
+		a.source_id AS id_1, a.ra AS ra_1, a.dec AS dec_1,
+		a.parallax AS plx_1, a.pmra AS pmra_1, a.pmdec AS pmdec_1,
+		b.source_id AS id_2, b.ra AS ra_2, b.dec AS dec_2,
+		b.parallax AS plx_2, b.pmra AS pmra_2, b.pmdec AS pmdec_2,
+		a.phot_g_mean_mag AS mag_1, b.phot_g_mean_mag AS mag_2,
+		DISTANCE(POINT('ICRS', a.ra, a.dec), 
+		POINT('ICRS', b.ra, b.dec)) AS ang_sep_deg
+		FROM gaiadr3.gaia_source AS a
+		JOIN gaiadr3.gaia_source AS b
+		ON a.source_id < b.source_id
+		AND CONTAINS(POINT('ICRS', b.ra, b.dec), 
+		CIRCLE('ICRS', a.ra, a.dec, 0.2)) = 1
+		WHERE 
+		-- 1. High Quality Data (Distance < 150 pc)
+		a.parallax > 6.7 AND b.parallax > 6.7
+		AND a.parallax_over_error > 10 AND b.parallax_over_error > 10
+		
+		-- 2. Strictly Red Dwarfs (Color > 1.5 and Faint Mag)
+		AND a.bp_rp > 1.5 AND b.bp_rp > 1.5
+		AND a.phot_g_mean_mag > 10 AND b.phot_g_mean_mag > 10
+		
+		-- 3. THE SNIPER FILTER (Targeting 500 - 20,000 AU)
+		-- Approx: 1 arcsec at 100pc = 100 AU. 
+		-- We want sep > 5 arcsec (approx 0.0014 deg)
+		AND DISTANCE(POINT('ICRS', a.ra, a.dec), 
+		POINT('ICRS', b.ra, b.dec)) > 0.0014
+		
+		-- 4. Velocity Check (Remove obvious unbound stars early)
+		AND SQRT(POWER(a.pmra - b.pmra, 2) + 
+		POWER(a.pmdec - b.pmdec, 2)) < 2.0
