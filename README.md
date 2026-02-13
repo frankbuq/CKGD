@@ -81,7 +81,7 @@ Where:
 *   **$\rho$** = rest mass density (from standard baryonic matter / $T_{\mu\nu}$)
 *   **$K_{ij} K^{ij}$** = geometric stress from MOTION (trace-free vacuum shear)
 
-*(Notice how the trace-free shear $K_{ij}K^{ij}$ is strictly positive. It adds real mass-energy to the effective density of the system.)*
+*(Notice how the trace-free shear **$K_{ij}K^{ij}$** *is strictly positive. It adds real mass-energy to the effective density of the system.)*
 
 **This geometric stress term is what standard weak-field post-Newtonian calculations drop as "negligible." CKGD proves it is not negligible—in low-acceleration, rotationally dominated regimes, it is the physical origin of the "Dark Sector."**
 
@@ -151,7 +151,7 @@ Standard interpretation claims the 100 kpc offset between the X-ray gas and the 
 
 ## The Role of the Observer: The Center of Momentum Frame
 
-**Common GR Critique:** *"In GR, $K_{ij}$ depends on the observer's foliation (time-slicing). If kinetic energy is relative, doesn't that make your dark matter observer-dependent?"*
+**Common GR Critique:** *"In GR, **$K_{ij}$** * depends on the observer's foliation (time-slicing). If kinetic energy is relative, doesn't that make your dark matter observer-dependent?"*
 
 **CKGD's Answer:** Local kinetic energy is relative, but the **Total Mass** of an isolated astrophysical system is a global invariant. 
 
@@ -225,6 +225,6 @@ Geometric shear couples to mass density, creating a "geometric viscosity" in pro
 
 **Frank Buquicchio**  
 Independent Researcher  
-`frank.buquicchio@example.com`
+`frankbuq@gmail.com`
 
 *"The missing mass isn't missing. It's stored in the geometry we've been ignoring."*
