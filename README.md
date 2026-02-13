@@ -209,9 +209,9 @@ Geometric shear couples to mass density, creating a "geometric viscosity" in pro
 
 ## Technical Resources
 
-**Full manuscript:** `CKGD_Manuscript.tex`  `CKGD_Manuscript.pdf`
-**Python analysis code:** `analyze_gaia_binary.py`  
-**Gaia DR3 query:** `gaia_query.adql`  
+**Full manuscript:** `manuscript/CKGD_Manuscript.tex`,  `manuscript/CKGD_Manuscript.pdf`
+**Python analysis code:** `analysis/analyze_gaia_binary.py`  
+**Gaia DR3 query:** `data/gaia_query.adql`  
 
 **Key references:**
 *   **Anderson et al. (2008)** - Anomalous Orbital-Energy Changes Observed during Spacecraft Flybys of Earth (*Phys. Rev. Lett. 100, 091102*)
