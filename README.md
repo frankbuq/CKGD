@@ -81,7 +81,7 @@ Where:
 *   **$\rho$** = rest mass density (from standard baryonic matter / $T_{\mu\nu}$)
 *   **$K_{ij} K^{ij}$** = geometric stress from MOTION (trace-free vacuum shear)
 
-*(Notice how the trace-free shear **$K_{ij}K^{ij}$** *is strictly positive. It adds real mass-energy to the effective density of the system.)*
+*(*Notice how the trace-free shear* **$K_{ij}K^{ij}$** *is strictly positive. It adds real mass-energy to the effective density of the system.)*
 
 **This geometric stress term is what standard weak-field post-Newtonian calculations drop as "negligible." CKGD proves it is not negligible—in low-acceleration, rotationally dominated regimes, it is the physical origin of the "Dark Sector."**
 
@@ -151,7 +151,7 @@ Standard interpretation claims the 100 kpc offset between the X-ray gas and the 
 
 ## The Role of the Observer: The Center of Momentum Frame
 
-**Common GR Critique:** *"In GR, **$K_{ij}$** * depends on the observer's foliation (time-slicing). If kinetic energy is relative, doesn't that make your dark matter observer-dependent?"*
+**Common GR Critique:** *"In GR,* **$K_{ij}$** *depends on the observer's foliation (time-slicing). If kinetic energy is relative, doesn't that make your dark matter observer-dependent?"*
 
 **CKGD's Answer:** Local kinetic energy is relative, but the **Total Mass** of an isolated astrophysical system is a global invariant. 
 
@@ -167,7 +167,7 @@ Just as a hot tank of gas weighs strictly more than a cold tank of gas (because 
 
 **CKGD's Answer:** Emmy Noether's theorem dictates that global energy conservation requires a global timelike Killing vector (time-translation symmetry). Because our universe is an expanding FLRW spacetime ($K > 0$), it lacks this symmetry. **Global energy is not a conserved quantity in General Relativity.**
 
-In BSSN, the trace extrinsic curvature ($K$) representing cosmic expansion couples directly to the shear: $+K \tilde{A}_{ij}$. The cosmological expansion performs continuous $P dV$ work on the local vacuum shear geometry. This is what continuously powers the galactic halo, preserving local covariant conservation ($\nabla_\mu T^{\mu\nu} = 0$) while drawing energy from the cosmic expansion itself.
+In BSSN, the trace extrinsic curvature **($K$)** representing cosmic expansion couples directly to the shear: **$+K \tilde{A}_{ij}$**. The cosmological expansion performs continuous **$P dV$** work on the local vacuum shear geometry. This is what continuously powers the galactic halo, preserving local covariant conservation (**$\nabla_\mu T^{\mu\nu} = 0$**) while drawing energy from the cosmic expansion itself.
 
 ---
 
@@ -209,7 +209,7 @@ Geometric shear couples to mass density, creating a "geometric viscosity" in pro
 
 ## Technical Resources
 
-**Full manuscript:** `ckgd_full_manuscript_corrected.tex`  
+**Full manuscript:** `CKGD_Manuscript.tex`  `CKGD_Manuscript.pdf`
 **Python analysis code:** `analyze_gaia_binary.py`  
 **Gaia DR3 query:** `gaia_query.adql`  
 
